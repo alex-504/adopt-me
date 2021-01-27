@@ -15,6 +15,19 @@
     <script>
       // Do not run js in html usually. 
       // Code comes here, for now!
+
+      // Creating a component called App. 
+      const App = () => {
+        return React.createElement(
+          "div",
+          {},
+          React.createElement("h1", {}, "Adopt Me!")
+        );
+      };
+
+      // Redner to DOM
+      ReactDOM.render(React.createElement(App), 
+      document.getElementById("root"))
     </script>
 </body>
 </html>
