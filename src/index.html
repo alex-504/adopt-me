@@ -12,22 +12,6 @@
 
   <!-- Run react DOM library to react to the browser -->
   <script src="https://unpkg.com/react-dom@16.8.4/umd/react-dom.development.js"></script>
-    <script>
-      // Do not run js in html usually. 
-      // Code comes here, for now!
-
-      // Creating a component called App. 
-      const App = () => {
-        return React.createElement(
-          "div",
-          {},
-          React.createElement("h1", {}, "Adopt Me!")
-        );
-      };
-
-      // Redner to DOM
-      ReactDOM.render(React.createElement(App), 
-      document.getElementById("root"))
-    </script>
+    <script src="./App.js"></script>
 </body>
 </html>
