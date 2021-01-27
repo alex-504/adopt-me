@@ -1,4 +1,4 @@
-const Pet = ({ name, animal, breed }) => {
+const Pet = ({ name, animal, breed }) => { // using destroctive method to replace 'props'
   return React.createElement("div", {}, [
     React.createElement("h1", {}, name),
     React.createElement("h2", {}, animal),
