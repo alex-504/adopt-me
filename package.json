@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/alex-504/adopt-me#readme",
   "devDependencies": {
+    "eslint-config-prettier": "^7.2.0",
     "prettier": "^2.2.1"
   }
 }
