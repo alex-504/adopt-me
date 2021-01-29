@@ -12,6 +12,7 @@ const Pet = ({
 };
 
 const App = () => {
+
   return React.createElement(
     "div", {
       id: "something-important",
