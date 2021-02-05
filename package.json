@@ -1,38 +1,28 @@
 {
-  "name": "adopt-me",
+  "name": "complete-intro-to-react-v5",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "the Complete Intro to React, v5",
+  "main": "src/App.js",
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.1",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.15.0",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
+    "eslint-plugin-react": "^7.12.4",
+    "parcel-bundler": "^1.12.1",
+    "prettier": "^1.16.1"
+  },
   "scripts": {
     "dev": "parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alex-504/adopt-me.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alex-504/adopt-me/issues"
-  },
-  "homepage": "https://github.com/alex-504/adopt-me#readme",
-  "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.18.0",
-    "eslint-config-prettier": "^7.2.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.22.0",
-    "parcel-bundler": "^1.12.4",
-    "prettier": "^2.2.1"
-  },
-  "dependencies": {
-    "npm": "^6.14.11",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
-  }
+  "author": "Brian Holt <btholt+complete-intro-to-react@gmail.com>",
+  "license": "Apache-2.0"
 }
