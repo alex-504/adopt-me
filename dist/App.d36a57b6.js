@@ -29784,11 +29784,15 @@ var _react = _interopRequireDefault(require("react"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function Pet(_ref) {
+function Pet(_ref) {// return React.createElement("div", {}, [
+  //   React.createElement("h1", {}, name),
+  //   React.createElement("h2", {}, animal),
+  //   React.createElement("h2", {}, breed)
+  // ]);
+
   var name = _ref.name,
       animal = _ref.animal,
       breed = _ref.breed;
-  return _react.default.createElement("div", {}, [_react.default.createElement("h1", {}, name), _react.default.createElement("h2", {}, animal), _react.default.createElement("h2", {}, breed)]);
 }
 },{"react":"../node_modules/react/index.js"}],"App.js":[function(require,module,exports) {
 "use strict";
@@ -29848,7 +29852,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39547" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37611" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
